@@ -1,0 +1,26 @@
+{
+  "env": {
+    "commonjs": true,
+    "es6": true,
+    "node": true
+  },
+  "extends": ["prettier", "airbnb-base"],
+  "plugins": ["prettier"],
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "parserOptions": {
+    "ecmaVersion": 2018
+  },
+  "rules": {
+    "prettier/prettier": "error",
+    "no-plusplus": "off",
+    "comma-dangle": "off",
+    "camelcase": "off",
+    "dot-notation": "off",
+    "func-names": 0,
+    "@typescript-eslint/no-explicit-any": "off",
+    "no-console": "off"
+  }
+}
